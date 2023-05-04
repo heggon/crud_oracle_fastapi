@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "projeto-banco-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["heggon"]
+readme = "README.md"
+packages = [{include = "projeto_banco_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.1"
+uvicorn = "^0.21.1"
+sqlalchemy = "^2.0.10"
+psycopg2-binary = "^2.9.6"
+pytest = "^7.3.1"
+alembic = "^1.10.3"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
